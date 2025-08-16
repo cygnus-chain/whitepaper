@@ -30,9 +30,9 @@ The goal: **Empower global participation** — whether it’s securing the netwo
 |-------------------------|-----------|
 | **Consensus**           | Proof-of-Work (PoW) |
 | **Mining Algorithm**    | Ethash |
-| **Block Reward**        | 2 CNS per block |
+| **Block Reward**        | See Halving Schedule |
 | **Supply Model**        | Unlimited (no maximum cap) |
-| **Halving Schedule**    | None (at this time) |
+| **Halving Schedule**    | Pre-activation (block < 55,000): 2 CNS<br>Block 55,000+: halving every 50,000 blocks:<br>- 1st 50k: 1 CNS<br>- 2nd 50k: 0.5 CNS<br>- 3rd 50k: 0.25 CNS<br>- 4th 50k: 0.125 CNS<br>- Permanent tail emission: 0.06 CNS |
 | **Block Time**          | ~15 seconds |
 | **Initial Difficulty**  | 0x20000 (131072 decimal), adjusts automatically |
 | **Premine**             | 2,000,000 CNS |
@@ -61,17 +61,24 @@ The goal: **Empower global participation** — whether it’s securing the netwo
 
 Cygnus Chain adopts an **unlimited supply model** to ensure **continuous miner participation** while keeping inflation under control.  
 
-### 4.1 Reward Structure  
-- **Block Reward:** 2 CNS fixed (no halving).  
-- **Purpose:** Predictable miner income ensures network longevity.  
+### 4.1 Reward Structure (Halving)  
+- **Pre-activation reward (block < 55,000):** 2 CNS per block.  
+- **Post-activation:** Rewards halve every 50,000 blocks:  
+  - Blocks 55,000–104,999: 1 CNS  
+  - Blocks 105,000–154,999: 0.5 CNS  
+  - Blocks 155,000–204,999: 0.25 CNS  
+  - Blocks 205,000–254,999: 0.125 CNS  
+  - Beyond 255,000: permanent tail emission 0.06 CNS  
+
+This ensures **predictable miner incentives** while gradually reducing inflation over time.
 
 ### 4.2 Premine Allocation  
 - **ICO Funding:** 1,000,000 CNS for initial investors and liquidity provisioning.  
 - **Team & Ecosystem:** 1,000,000 CNS for development, marketing, partnerships, community events, and airdrops.  
 
 ### 4.3 Inflation Control  
-- Lower block rewards compared to legacy chains help **limit runaway inflation**.  
-- Transaction fees add a **secondary incentive** for miners over time.  
+- Gradual halving helps **moderate network inflation**.  
+- Transaction fees provide **secondary incentives** for miners.  
 
 ---
 
@@ -148,7 +155,7 @@ Cygnus Chain positions itself as a **middle ground** between:
 - Low fees  
 - EVM compatibility  
 - Balanced mining ecosystem  
-- Predictable reward model  
+- Predictable reward model with halving  
 
 ---
 
@@ -169,13 +176,14 @@ Cygnus Chain is a **next-generation PoW blockchain** that blends Ethereum’s mi
 ## Appendix B: Resources  
 
 - **Website:** [Click Here](https://cygnuschain.com)  
-- **Explorer:** [Click Here](https://explorer.cygnuschain.com)
+- **Explorer:** [Click Here](https://explorer.cygnuschain.com)  
 - **GitHub:** [Click here](https://github.com/cygnus-chain)  
 - **Community:** [Discord](https://discord.gg/Makd3DKau6), [Reddit](https://www.reddit.com/r/CygnusChain/), [Twitter](https://x.com/cygnus_chain)  
 
 ---
 
 **Ticker:** CNS  
-**ChainId:** 235
+**ChainId:** 235  
 **Consensus:** Proof-of-Work (Ethash)  
 **Launch Date:** August 14, 2025  
+**Halving Schedule:** See Section 2 & Economic Model
