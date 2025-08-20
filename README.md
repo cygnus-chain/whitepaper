@@ -62,13 +62,13 @@ The goal: **Empower global participation** — whether it’s securing the netwo
 Cygnus Chain adopts an **unlimited supply model** to ensure **continuous miner participation** while keeping inflation under control.  
 
 ### 4.1 Reward Structure (Halving)  
-- **Pre-activation reward (block < 55,000):** 2 CNS per block.  
+- **Pre-activation reward (block < 100,000):** 2 CNS per block.  
 - **Post-activation:** Rewards halve every 50,000 blocks:  
-  - Blocks 55,000–104,999: 1 CNS  
-  - Blocks 105,000–154,999: 0.5 CNS  
-  - Blocks 155,000–204,999: 0.25 CNS  
-  - Blocks 205,000–254,999: 0.125 CNS  
-  - Beyond 255,000: permanent tail emission 0.06 CNS  
+  - Blocks 100,000: 1 CNS  
+  - Blocks 150,000: 0.5 CNS  
+  - Blocks 200,000: 0.25 CNS  
+  - Blocks 250,000: 0.125 CNS  
+  - Beyond 300,000: permanent tail emission 0.06 CNS  
 
 This ensures **predictable miner incentives** while gradually reducing inflation over time.
 
