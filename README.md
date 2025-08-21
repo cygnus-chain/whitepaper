@@ -8,7 +8,7 @@
 ## Abstract  
 Cygnus Chain ($CNS) is a decentralized **Proof-of-Work (PoW)** blockchain designed for **stability, scalability, and real-world payments**. It leverages the **Ethash** algorithm alongside **Ethereum Virtual Machine (EVM)** compatibility to bridge the gap between accessible mining, developer flexibility, and low-cost, high-speed transactions.  
 
-This README outlines the **technical architecture, economic model, governance framework, ecosystem potential, and roadmap** of Cygnus Chain. We aim to build an **open, transparent, and community-driven network** that remains **accessible to miners, developers, and everyday users** worldwide.  
+This whitepaper outlines the **technical architecture, economic model, governance framework, ecosystem potential, and roadmap** of Cygnus Chain. We aim to build an **open, transparent, and community-driven network** that remains **accessible to miners, developers, and everyday users** worldwide.  
 
 ---
 
@@ -20,7 +20,7 @@ Cygnus Chain is built to **merge the strengths of Ethereum’s PoW era** with th
 - **For Developers:** EVM compatibility to leverage the vast Ethereum ecosystem of smart contracts and developer tools.  
 - **For Users:** Low fees, fast transactions, and a focus on real-world payment systems.  
 
-The goal: **Empower global participation** — whether it’s securing the network, building dApps, or making everyday transactions.
+The goal: **Empower global participation** — whether it’s securing the network, building dApps, or making everyday transactions.  
 
 ---
 
@@ -37,6 +37,9 @@ The goal: **Empower global participation** — whether it’s securing the netwo
 | **Initial Difficulty**  | 0x20000 (131072 decimal), adjusts automatically |
 | **Premine**             | 2,000,000 CNS |
 | **Premine Allocation**  | 50% ICO, 50% team, ecosystem, events, airdrops |
+| **Chain ID**            | 235 |
+| **Symbol**              | CNS |
+| **Decimals**            | 18 |
 
 ---
 
@@ -70,7 +73,7 @@ Cygnus Chain adopts an **unlimited supply model** to ensure **continuous miner p
   - Blocks 250,000: 0.125 CNS  
   - Beyond 300,000: permanent tail emission 0.06 CNS  
 
-This ensures **predictable miner incentives** while gradually reducing inflation over time.
+This ensures **predictable miner incentives** while gradually reducing inflation over time.  
 
 ### 4.2 Premine Allocation  
 - **ICO Funding:** 1,000,000 CNS for initial investors and liquidity provisioning.  
@@ -145,7 +148,29 @@ At launch, governance will be **off-chain**, with major changes coordinated via 
 
 ---
 
-## 9. Market Positioning & Competition  
+## 9. Legacy Chain Incident (20/08/2025)  
+
+On **20th August 2025**, Cygnus Chain experienced an **unexpected network failure** that resulted in a **chain split** and transaction instability.  
+
+### What Happened  
+- A misconfiguration in node infrastructure caused the network to diverge.  
+- This resulted in a **Legacy Chain** that stopped processing correctly.  
+
+### Actions Taken  
+- The Legacy Chain was halted.  
+- A **new Cygnus Chain** was launched with identical **Chain ID (235)** to ensure compatibility.  
+- A **migration program** was initiated for users to safely transfer funds 1:1 from the Legacy Chain to the New Chain.  
+
+⚠️ **Warning to All Users:**  
+- Do not deposit, withdraw, or transact on the Legacy Chain.  
+- All funds must be migrated using the official migration bot or portal.  
+- Migration finalized by **21/08/2025 midnight**.  
+
+The **Legacy Chain** remains preserved as a **historical network**, but all future operations continue exclusively on the **New Cygnus Chain**.  
+
+---
+
+## 10. Market Positioning & Competition  
 
 Cygnus Chain positions itself as a **middle ground** between:  
 - **Legacy PoW chains** like Ethereum Classic — with proven security but higher costs.  
@@ -159,9 +184,11 @@ Cygnus Chain positions itself as a **middle ground** between:
 
 ---
 
-## 10. Conclusion  
+## 11. Conclusion  
 
-Cygnus Chain is a **next-generation PoW blockchain** that blends Ethereum’s mining-era decentralization with modern efficiency and low-cost transactions. With a **developer-friendly environment**, **community-driven governance**, and a focus on **real-world payments**, Cygnus Chain aims to become the go-to decentralized currency for everyday use.  
+Cygnus Chain is a **next-generation PoW blockchain** that blends Ethereum’s mining-era decentralization with modern efficiency and low-cost transactions.  
+
+Despite the **Legacy Chain incident (20/08/2025)**, the project has emerged stronger, with a safe migration path and a reliable new chain. Cygnus Chain continues its mission to be a **decentralized, fair, and accessible blockchain** for miners, developers, and users worldwide.  
 
 ---
 
@@ -175,9 +202,9 @@ Cygnus Chain is a **next-generation PoW blockchain** that blends Ethereum’s mi
 
 ## Appendix B: Resources  
 
-- **Website:** [Click Here](https://cygnuschain.com)  
-- **Explorer:** [Click Here](https://explorer.cygnuschain.com)  
-- **GitHub:** [Click here](https://github.com/cygnus-chain)  
+- **Website:** [cygnuschain.com](https://cygnuschain.com)  
+- **Explorer:** [explorer.cygnuschain.com](https://explorer.cygnuschain.com)  
+- **GitHub:** [github.com/cygnus-chain](https://github.com/cygnus-chain)  
 - **Community:** [Discord](https://discord.gg/Makd3DKau6), [Reddit](https://www.reddit.com/r/CygnusChain/), [Twitter](https://x.com/cygnus_chain)  
 
 ---
@@ -186,4 +213,4 @@ Cygnus Chain is a **next-generation PoW blockchain** that blends Ethereum’s mi
 **ChainId:** 235  
 **Consensus:** Proof-of-Work (Ethash)  
 **Launch Date:** August 14, 2025  
-**Halving Schedule:** See Section 2 & Economic Model
+**Halving Schedule:** See Section 2 & Economic Model  
